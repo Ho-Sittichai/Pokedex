@@ -4,8 +4,11 @@
 
 This project is a Pokedex application developed as a recruitment test for the Senior Frontend Developer position at **ChomCHOB**. The goal was to build a fully functional, pixel-perfect Pokedex application based on provided design specifications and technical requirements.
 
+**🔗 [View Live Demo](https://chomchop-pokedex-web-app.vercel.app/)**
+
 ### 🔗 Reference Links
 
+- **Live Demo:** [chomchop-pokedex-web-app.vercel.app](https://chomchop-pokedex-web-app.vercel.app/)
 - **Test Requirements:** [ChomCHOB Frontend Testing - Senior](https://github.com/ChomCHOB/chomchob-frontend-testing/tree/main/senior)
 - **Design Specification (Figma):** [Figma Design - Pokedex](https://www.figma.com/design/lOH3cDxir1RLdLsn4XzbpV/Quiz-for-Junior-Front-end?node-id=915-942&p=f)
 
