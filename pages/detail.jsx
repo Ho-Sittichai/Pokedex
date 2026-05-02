@@ -11,6 +11,10 @@ const PokemonDetailPage = () => {
 
     const pokemon = query.pokemon ? JSON.parse(query.pokemon) : {};
 
+    if (!pokemon.name) {
+        return null;
+    }
+
     const handleAddToPokeball = () => {
         for (let i = 0; i < quantity; i++) {
             addToPokeball(pokemon);
