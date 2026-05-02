@@ -1,40 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pokedex - Frontend Recruitment Test (Senior Level)
 
-## Getting Started
+## 📋 Project Overview
+This project is a Pokedex application developed as a recruitment test for the Senior Frontend Developer position at **ChomCHOB**. The goal was to build a fully functional, pixel-perfect Pokedex application based on provided design specifications and technical requirements.
 
-First, run the development server:
+### 🔗 Reference Links
+- **Test Requirements:** [ChomCHOB Frontend Testing - Senior](https://github.com/ChomCHOB/chomchob-frontend-testing/tree/main/senior)
+- **Design Specification (Figma):** [Figma Design - Pokedex](https://www.figma.com/design/lOH3cDxir1RLdLsn4XzbpV/Quiz-for-Junior-Front-end?node-id=915-942&p=f)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Preview
+![Pokedex Application Preview](./public/WebPage.png)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🚀 Features & Requirements
+The application has been implemented to meet 100% of the specifications:
+- **Pokemon List Page:**
+  - Displays a grid of Pokemon.
+  - Type-based filtering.
+  - Infinite scroll or pagination (depending on implementation choice).
+- **Pokemon Detail Page:**
+  - Detailed stats, types, and abilities.
+  - Visual representation of stats.
+- **My Pocket (Collection System):**
+  - Ability to "catch" and save Pokemon to a local pocket.
+  - Manage and view collected Pokemon.
+- **Pixel-Perfect UI:** Strictly follows the provided Figma design.
+- **Responsive Web Design:** Fully optimized for Mobile, Tablet, and Desktop.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🛠️ Tech Stack
+- **Framework:** [Next.js](https://nextjs.org/) (React)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **State Management:** React Context API
+- **API:** [PokeAPI](https://pokeapi.co/)
+- **Icons & Fonts:** As specified in Figma.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Installation & Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
+- Node.js (Latest LTS recommended)
+- npm or yarn
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Setup
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Ho-Sittichai/Pokedex.git
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+4. **Open the application:**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👨‍💻 Statement of Completion
+This project serves as a comprehensive demonstration of my frontend capabilities, including component architecture, state management, and the ability to translate complex designs into functional code. All features and conditions specified in the recruitment quiz have been fulfilled.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+Developed with ❤️ by [Ho-Sittichai](https://github.com/Ho-Sittichai)
